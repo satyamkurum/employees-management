@@ -95,12 +95,19 @@ async def get_employee(employee_id: str):
 async def update_employee(
     employee_id: str,
     update_data: UpdateEmployeeSchema,
-    current_user: dict = Depends(get_current_user) 
+    current_user: dict = Depends(get_current_user)
 ):
     """
     Update an existing employee's record.
     """
     update_fields = update_data.model_dump(exclude_unset=True)
+
+    # 1. FIX: Check if joining_date is being updated
+    if "joining_date" in update_fields and update_fields["joining_date"]:
+        # 2. FIX: Convert date to datetime before saving
+        update_fields["joining_date"] = datetime.combine(
+            update_fields["joining_date"], datetime.min.time()
+        )
 
     if len(update_fields) >= 1:
         result = await employee_collection.update_one(
@@ -121,6 +128,7 @@ async def update_employee(
         status_code=status.HTTP_404_NOT_FOUND,
         detail=f"Employee with ID {employee_id} not found."
     )
+
 
 
 @router.delete(
