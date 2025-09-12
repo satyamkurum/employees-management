@@ -32,7 +32,7 @@ web-based user interface.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 -   **Backend**: FastAPI, Uvicorn\
 -   **Database**: MongoDB (deployed on MongoDB Atlas)\
