@@ -1,12 +1,11 @@
-fastapi
-uvicorn[standard]
+fastapi[all]
 motor
 pymongo
 pydantic-settings
 python-jose[cryptography]
+passlib[bcrypt]
 python-dotenv
-passlib==1.7.4
-bcrypt==4.0.1
+uvicorn[standard]
 streamlit
 requests
 pandas
