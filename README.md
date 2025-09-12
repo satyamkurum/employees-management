@@ -1,7 +1,7 @@
 # Employee Management API & Dashboard
 
 This is a full-stack web application built with **FastAPI** and
-**Streamlit** for managing employee records.\
+**Streamlit** for managing employee records.
 The project includes a secure RESTful API backend and an interactive
 web-based user interface.
 
@@ -10,23 +10,23 @@ web-based user interface.
 ### Backend (FastAPI)
 
 -   **Full CRUD Operations**: Create, Read, Update, and Delete employee
-    records.\
+    records.
 -   **Advanced Querying**: Filter by department, search by skill, and
-    sort results.\
--   **Database Aggregation**: Calculate average salary per department.\
+    sort results.
+-   **Database Aggregation**: Calculate average salary per department.
 -   **Secure**: Endpoints for modifying data are protected using JWT
-    authentication.\
--   **Scalable**: Features pagination for listing employees.\
+    authentication.
+-   **Scalable**: Features pagination for listing employees.
 -   **Robust**: Uses database-level indexing and schema validation for
     performance and data integrity.
 
 ### Frontend (Streamlit)
 
--   **User Authentication**: Secure login/logout functionality.\
+-   **User Authentication**: Secure login/logout functionality.
 -   **Multi-Page Interface**: Separate pages for creating, viewing,
-    updating, and analyzing employee data.\
+    updating, and analyzing employee data.
 -   **Interactive Forms & Tables**: Easy-to-use forms for data entry and
-    pandas DataFrames for viewing data.\
+    pandas DataFrames for viewing data.
 -   **Data Visualization**: Bar chart to display analytics on average
     salaries.
 
@@ -34,10 +34,10 @@ web-based user interface.
 
 ##  Tech Stack
 
--   **Backend**: FastAPI, Uvicorn\
--   **Database**: MongoDB (deployed on MongoDB Atlas)\
--   **Frontend**: Streamlit\
--   **Authentication**: JWT (JSON Web Tokens)\
+-   **Backend**: FastAPI, Uvicorn
+-   **Database**: MongoDB (deployed on MongoDB Atlas)
+-   **Frontend**: Streamlit
+-   **Authentication**: JWT (JSON Web Tokens)
 -   **Deployment**: Backend on Render, Frontend on Hugging Face Spaces,
     Database on MongoDB Atlas
 
@@ -48,7 +48,7 @@ web-based user interface.
 ### 1. Clone the repository:
 
 ``` bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/satyamkurum/employees-management.git
 cd your-repo-name
 ```
 
@@ -56,8 +56,7 @@ cd your-repo-name
 
 ``` bash
 python -m venv venv
-source venv/Scripts/activate   # On Windows
-source venv/bin/activate       # On macOS/Linux
+source venv/Scripts/activate   
 ```
 
 ### 3. Install dependencies:
