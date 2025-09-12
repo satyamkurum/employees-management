@@ -1,9 +1,11 @@
 import motor.motor_asyncio
 from pymongo.mongo_client import MongoClient
 from bson.son import SON
+import os
+from dotenv import load_dotenv
 
-
-MONGO_DETAILS = "mongodb://localhost:27017"
+load_dotenv()
+MONGO_DETAILS = os.getenv("MONGO_DETAILS")
 DATABASE_NAME = "assessment_db"
 COLLECTION_NAME = "employees"
 
