@@ -1,0 +1,11 @@
+# .gitignore
+
+# Virtual Environment
+venv/
+__pycache__/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
