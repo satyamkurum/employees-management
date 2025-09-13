@@ -85,3 +85,26 @@ uvicorn app.main:app --reload
 ``` bash
 streamlit run ui.py
 ```
+
+## Live Deployed Application
+
+ To make this project interactive, the entire full stack application has been deployed to the cloud. You can test the live version without needing to set up a local environment.
+
+### Access Links
+
+ Live User Interface (Streamlit): [Your-Streamlit-Cloud-or-Hugging-Face-URL]
+
+ Live API Documentation (FastAPI): [Your-Render-Backend-URL]/docs
+
+### Login Credentials
+
+ Username: testuser
+ Password: testpassword
+
+### Architecture
+
+ Frontend (UI): Hosted on Streamlit Community Cloud
+
+ Backend (API): Hosted on Render
+
+ Database: Hosted on MongoDB Atlas
