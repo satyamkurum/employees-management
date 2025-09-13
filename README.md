@@ -49,7 +49,7 @@ web-based user interface.
 
 ``` bash
 git clone https://github.com/satyamkurum/employees-management.git
-cd your-repo-name
+cd employees-management
 ```
 
 ### 2. Create and activate a virtual environment:
@@ -72,7 +72,6 @@ variables:
 
 ``` bash
 MONGO_DETAILS="your-mongodb-connection-string"
-SECRET_KEY="your-strong-jwt-secret-key"
 ```
 
 ### 5. Run the Backend Server:
