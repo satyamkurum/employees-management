@@ -38,7 +38,7 @@ web-based user interface.
 -   **Database**: MongoDB (deployed on MongoDB Atlas)
 -   **Frontend**: Streamlit
 -   **Authentication**: JWT (JSON Web Tokens)
--   **Deployment**: Backend on Render, Frontend on Hugging Face Spaces,
+-   **Deployment**: Backend on Render, Frontend on Streamlit Cloud,
     Database on MongoDB Atlas
 
 ------------------------------------------------------------------------
