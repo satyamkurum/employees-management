@@ -90,21 +90,21 @@ streamlit run ui.py
 
  To make this project interactive, the entire full stack application has been deployed to the cloud. You can test the live version without needing to set up a local environment.
 
-### Access Links
+###  1. Access Links
 
- Live User Interface (Streamlit): [Your-Streamlit-Cloud-or-Hugging-Face-URL]
+ Live User Interface (Streamlit): [ https://employees-management-dhy2hsvqsoygksy3mppfkn.streamlit.app]
 
- Live API Documentation (FastAPI): [Your-Render-Backend-URL]/docs
+ Live API Documentation (FastAPI): [https://employees-management-backend-9jey.onrender.com/docs]
 
-### Login Credentials
+### 2. Login Credentials
 
- Username: testuser
- Password: testpassword
+ - Username: testuser
+ - Password: testpassword
 
-### Architecture
+### 3. Architecture
 
- Frontend (UI): Hosted on Streamlit Community Cloud
+ - Frontend (UI): Hosted on Streamlit Community Cloud
 
- Backend (API): Hosted on Render
+ - Backend (API): Hosted on Render
 
- Database: Hosted on MongoDB Atlas
+ - Database: Hosted on MongoDB Atlas
