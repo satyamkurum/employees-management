@@ -92,6 +92,8 @@ streamlit run ui.py
 
 ###  1. Access Links
 
+ After Re-directed to User Interface, please Wait **50 seconds**, The Backend takes loading time after period of inactivity
+ 
  Live User Interface (Streamlit): [ https://employees-management-dhy2hsvqsoygksy3mppfkn.streamlit.app]
 
  Live API Documentation (FastAPI): [https://employees-management-backend-9jey.onrender.com/docs]
